@@ -1,25 +1,37 @@
 // Experience data for the portfolio
 export const getExperienceData = experience => [
   {
-    period: 'June 2023 - Present',
+    period: 'April 2025 - December 2025',
     title: 'Technology Analyst',
-    company: 'MulticoreWare Pvt Ltd',
-    location: 'Chennai, India',
-    logo: '/MulticoreWare_Logo.jpg',
+    company: 'Infosys Ltd',
+    location: 'Raleigh, NC, USA',
+    logo: '/Infosys_Logo.jpg',
     description:
-      'Working on software development projects focusing on performance optimization, profiling, and benchmarking. Responsible for developing efficient software solutions and analyzing performance metrics to improve application performance.',
-    experience: experience,
+      'Led the support and enhancement of enterprise desktop applications for a high-revenue tax engagement, driving application stability, operational continuity, and stakeholder satisfaction. Spearheaded the migration of Tableau dashboards to Power BI and championed workflow automation initiatives using Power Platform, collaborating with cross-functional teams to deliver scalable and compliant business solutions.',
+    // experience: experience,
+    experience: '9 months',
     delay: 0.1,
   },
   {
-    period: 'June 2022 - May 2023',
-    title: 'Industrial Project Engineer',
-    company: 'Lenovo Pvt Ltd',
-    location: 'Mumbai, India',
-    logo: '/Lenovo_Global_Corporate_Logo.png',
+    period: 'March 2023 - March 2025',
+    title: 'Senior Systems Engineer',
+    company: 'Infosys Ltd',
+    location: 'Raleigh, NC, USA',
+    logo: '/Infosys_Logo.jpg',
     description:
-      'Developed and maintained smart attendance system using face recognition technology and ESD tester with database integration. Worked on computer vision algorithms, biometric authentication systems, and real-time data processing for employee attendance tracking and ESD testing workflows.',
-    experience: '1 year',
+      'Implemented backend enhancements and application updates based on SME-driven designs, ensuring adherence to coding standards, best practices, and delivery excellence. Contributed to the successful delivery of client-focused enhancements and defect resolutions to support evolving business requirements.',
+    experience: '2 years',
     delay: 0.2,
+  },
+  {
+    period: 'June 2018 - July 2021',
+    title: 'Systems Engineer',
+    company: 'Infosys Ltd',
+    location: 'Mangalore, India',
+    logo: '/Infosys_Logo.jpg',
+    description:
+      'Supported and maintained cloud-hosted enterprise applications on Google App Engine, ensuring reliability, performance, and operational efficiency. Developed and implemented backend components and application enhancements using Java and Python while upholding quality standards and delivery excellence.',
+    experience: '3 years',
+    delay: 0.3,
   },
 ];

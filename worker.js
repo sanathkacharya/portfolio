@@ -72,11 +72,11 @@ function createAutoReplyHTML(name, message) {
       </p>
       
       <div style="text-align: center; margin: 30px 0;">
-        <a href="https://github.com/Sanath-coder" 
+        <a href="https://github.com/sanathkacharya" 
            style="display: inline-block; background-color: #374151; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 0 10px;">
           GitHub
         </a>
-        <a href="https://www.linkedin.com/in/sanath4122001/" 
+        <a href="https://www.linkedin.com/in/sanathacharya/" 
            style="display: inline-block; background-color: #0077b5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 0 10px;">
           LinkedIn
         </a>
@@ -430,7 +430,7 @@ async function handleContactForm(request, env) {
       
       Your message was submitted on: ${new Date().toLocaleString()}
       
-      In the meantime, feel free to check out my work on GitHub (https://github.com/Sanath-coder) or connect with me on LinkedIn (https://www.linkedin.com/in/sanath4122001/).
+      In the meantime, feel free to check out my work on GitHub (https://github.com/sanathkacharya) or connect with me on LinkedIn (https://www.linkedin.com/in/sanathacharya/).
       
       Best regards,
       Sanath

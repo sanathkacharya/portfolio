@@ -202,10 +202,10 @@ const HeroSection = React.memo(function HeroSection() {
               transition={{ delay: 1.0 }}
             >
               {[
-                { icon: Github, href: 'https://github.com/Sanath-coder', label: 'GitHub' },
+                { icon: Github, href: 'https://github.com/sanathkacharya', label: 'GitHub' },
                 {
                   icon: Linkedin,
-                  href: 'https://www.linkedin.com/in/sanath4122001/',
+                  href: 'https://www.linkedin.com/in/sanathacharya/',
                   label: 'LinkedIn',
                 },
                 { icon: Mail, href: 'mailto:contact@sanathcloud.com', label: 'Email' },

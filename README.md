@@ -124,8 +124,8 @@ Visit the live portfolio: **[www.sanathcloud.com](https://www.sanathcloud.com)**
 ## 📱 Contact
 
 - **Email**: contact@sanathcloud.com
-- **GitHub**: [github.com/Sanath-coder](https://github.com/Sanath-coder)
-- **LinkedIn**: [linkedin.com/in/sanath4122001](https://www.linkedin.com/in/sanath4122001/)
+- **GitHub**: [github.com/sanathkacharya](https://github.com/sanathkacharya)
+- **LinkedIn**: [linkedin.com/in/sanathacharya/](https://www.linkedin.com/in/sanathacharya/)
 
 ## 🎯 Project Highlights
 
@@ -135,4 +135,4 @@ Visit the live portfolio: **[www.sanathcloud.com](https://www.sanathcloud.com)**
 
 ---
 
-Built with ❤️ by [Sanath](https://github.com/Sanath-coder) | Software Engineer at MulticoreWare 
+Built with ❤️ by [Sanath](https://github.com/sanathkacharya) | Technology Analyst at Infosys 

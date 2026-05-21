@@ -45,7 +45,7 @@ const Footer = () => {
               <Mail size={20} />
             </a>
             <a
-              href='https://www.linkedin.com/in/sanath4122001/'
+              href='https://www.linkedin.com/in/sanathacharya/'
               target='_blank'
               rel='noopener noreferrer'
               className='w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-secondary-600 transition-colors duration-200'
@@ -55,7 +55,7 @@ const Footer = () => {
               <Linkedin size={20} />
             </a>
             <a
-              href='https://github.com/Sanath-coder'
+              href='https://github.com/sanathkacharya'
               target='_blank'
               rel='noopener noreferrer'
               className='w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-secondary-600 transition-colors duration-200'
