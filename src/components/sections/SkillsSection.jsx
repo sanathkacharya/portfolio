@@ -1,14 +1,14 @@
 /**
  * @file SkillsSection.jsx
  * @author Sanath
- * @copyright © 2025 Sanath. All rights reserved.
+ * @copyright © 2026 Sanath. All rights reserved.
  * @description Modern skills section component showcasing technical expertise and capabilities
  */
 
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Code, Zap, Cpu, Cloud, Sparkles } from 'lucide-react';
+import { Code, Zap, Cpu, Cloud, Sparkles, BrainCircuit, Building2 } from 'lucide-react';
 
 // Modern Skills Section Component
 const SkillsSection = () => {
@@ -16,32 +16,32 @@ const SkillsSection = () => {
 
   const skills = [
     {
-      icon: <Code size={48} />,
-      title: 'Software Development',
-      description: 'Full-stack development, application architecture, and software engineering',
+      icon: <Cloud size={48} />,
+      title: 'Cloud Engineering',
+      description: 'Building scalable enterprise solutions on Azure and GCP',
       color: 'from-blue-500 to-indigo-600',
       bgColor: 'from-blue-50 to-indigo-50',
     },
     {
-      icon: <Zap size={48} />,
-      title: 'Performance Optimization',
-      description: 'Profiling, benchmarking, and performance analysis for applications',
+      icon: <Code size={48} />,
+      title: 'Backend Development',
+      description: 'Developing robust applications using Python, SQL, and APIs',
+      color: 'from-blue-500 to-indigo-600',
+      bgColor: 'from-blue-50 to-indigo-50',
+    },
+    {
+      icon: <BrainCircuit size={48} />,
+      title: 'AI & Automation',
+      description: 'Creating intelligent workflows using AI and Power Platform',
       color: 'from-purple-500 to-pink-600',
       bgColor: 'from-purple-50 to-pink-50',
     },
     {
-      icon: <Cpu size={48} />,
-      title: 'System Analysis',
-      description: 'System profiling, resource optimization, and performance tuning',
+      icon: <Building2 size={48} />,
+      title: 'Enterprise Solutions',
+      description: 'Delivering reliable, scalable, and business-focused software solutions',
       color: 'from-emerald-500 to-teal-600',
       bgColor: 'from-emerald-50 to-teal-50',
-    },
-    {
-      icon: <Cloud size={48} />,
-      title: 'Cloud Technologies',
-      description: 'Cloud deployment, infrastructure, and modern deployment strategies',
-      color: 'from-orange-500 to-red-600',
-      bgColor: 'from-orange-50 to-red-50',
     },
   ];
 
@@ -97,7 +97,7 @@ const SkillsSection = () => {
             </span>
           </h2>
           <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-            Passionate about technologies that drive innovation and create meaningful impact
+            Driven by a passion for technology, innovation, and building solutions that create real-world impact
           </p>
         </motion.div>
 
