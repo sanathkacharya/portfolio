@@ -103,7 +103,7 @@ const ContactSection = () => {
     {
       icon: <MapPin size={24} />,
       title: 'Location',
-      content: 'Pondicherry, India',
+      content: 'Mumbai, India',
       link: null,
     },
     {

@@ -109,7 +109,7 @@ const AboutSection = React.memo(() => {
                 <p className='pl-8'>
                   I'm a passionate{' '}
                   <span className='font-semibold text-blue-600'>Software Developer Engineer</span>{' '}
-                  based in Pondicherry, specializing in software development and modern application
+                  based in Mumbai, specializing in software development and modern application
                   architecture. My expertise lies in developing efficient software solutions,
                   building scalable applications, and implementing best practices in software
                   engineering.

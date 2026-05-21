@@ -136,7 +136,7 @@ const HeroSection = React.memo(function HeroSection() {
               <span className='text-cyan-400 font-semibold'>modern technologies</span>. Specializing
               in building efficient software solutions with a keen interest in{' '}
               <span className='text-purple-400 font-semibold'>cloud infrastructure</span>. Based in
-              the beautiful city of Pondicherry with{' '}
+              the beautiful city of Mumbai with{' '}
               <span className='text-emerald-400 font-semibold'>{experience}</span> of professional
               experience.
             </motion.p>
