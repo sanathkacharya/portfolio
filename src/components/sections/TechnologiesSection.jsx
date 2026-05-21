@@ -24,16 +24,14 @@ const TechnologiesSection = () => {
       icon: Cloud,
       items: [
         { name: 'Microsoft Azure', description: 'Cloud computing services and solutions' },
-        { name: 'Cloudflare', description: 'CDN, DNS, and edge computing platform' },
-        { name: 'Vercel', description: 'Frontend deployment and hosting platform' },
-        { name: 'Koyeb', description: 'Serverless deployment platform' },
+        { name: 'Google Cloud', description: 'CDN, DNS, and edge computing platform' },
+        { name: 'AWS', description: 'Frontend deployment and hosting platform' },
       ],
     },
     {
       category: 'Operating Systems',
       icon: Monitor,
       items: [
-        { name: 'Ubuntu', description: 'Linux server administration and development' },
         { name: 'Windows', description: 'Desktop and server environments' },
         { name: 'macOS', description: 'Apple ecosystem development and administration' },
         { name: 'Android', description: 'Mobile development and customization' },
