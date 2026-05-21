@@ -1,6 +1,6 @@
 # Development Guide
 
-This document explains the development workflow, tools, and best practices for the Aswin Portfolio project.
+This document explains the development workflow, tools, and best practices for the Sanath Portfolio project.
 
 ## 🛠️ Development Environment Setup
 
@@ -12,7 +12,7 @@ This document explains the development workflow, tools, and best practices for t
 ### Initial Setup
 ```bash
 # Clone the repository
-git clone https://github.com/Aswintechie/portfolio.git
+git clone https://github.com/sanathkacharya/portfolio.git
 cd portfolio
 
 # Install dependencies

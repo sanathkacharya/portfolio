@@ -37,10 +37,10 @@ const Footer = () => {
           </div>
           <div className='flex space-x-4'>
             <a
-              href='mailto:contact@aswincloud.com'
+              href='mailto:contact@sanathcloud.com'
               className='w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-secondary-600 transition-colors duration-200'
               title='Email'
-              aria-label='Send email to contact@aswincloud.com'
+              aria-label='Send email to contact@sanathcloud.com'
             >
               <Mail size={20} />
             </a>

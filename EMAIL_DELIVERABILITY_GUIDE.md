@@ -29,10 +29,10 @@ This guide helps prevent your portfolio contact form emails from going to junk/s
 ### 1. **Improved From Address**
 ```javascript
 // Before
-from: 'Portfolio Contact <noreply@aswincloud.com>'
+from: 'Portfolio Contact <noreply@sanathcloud.com>'
 
 // After  
-from: 'Aswin Portfolio <contact@aswincloud.com>'
+from: 'Sanath Portfolio <contact@sanathcloud.com>'
 ```
 
 ### 2. **Clean Subject Lines**
@@ -43,7 +43,7 @@ subject: '🙏 Thank you for contacting me!'
 
 // After
 subject: 'New Portfolio Contact from ${name}'
-subject: 'Thank you for contacting me - Aswin Portfolio'
+subject: 'Thank you for contacting me - Sanath Portfolio'
 ```
 
 ### 3. **Added Email Headers**
@@ -52,7 +52,7 @@ headers: {
   'X-Priority': '1',
   'X-MSMail-Priority': 'High', 
   'Importance': 'high',
-  'X-Mailer': 'Aswin Portfolio Contact Form'
+  'X-Mailer': 'Sanath Portfolio Contact Form'
 }
 ```
 
@@ -73,7 +73,7 @@ replyTo: process.env.CONTACT_EMAIL
 ## 🔧 Additional Steps to Take
 
 ### 1. **Domain Authentication**
-Set up these DNS records for `aswincloud.com`:
+Set up these DNS records for `sanathcloud.com`:
 
 #### SPF Record
 ```
@@ -85,12 +85,12 @@ Resend will provide this when you verify your domain.
 
 #### DMARC Record
 ```
-TXT _dmarc "v=DMARC1; p=quarantine; rua=mailto:dmarc@aswincloud.com"
+TXT _dmarc "v=DMARC1; p=quarantine; rua=mailto:dmarc@sanathcloud.com"
 ```
 
 ### 2. **Verify Your Domain in Resend**
 1. Go to [Resend Dashboard](https://resend.com/domains)
-2. Add `aswincloud.com` as a domain
+2. Add `sanathcloud.com` as a domain
 3. Follow the DNS setup instructions
 4. Wait for verification (can take 24-48 hours)
 

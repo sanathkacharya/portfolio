@@ -65,7 +65,7 @@ You need to add the following secrets to your GitHub repository:
 - **Format**: `your-email@domain.com`
 
 #### `FROM_EMAIL`
-- **Description**: Email address to send from (optional, defaults to noreply@aswincloud.com)
+- **Description**: Email address to send from (optional, defaults to noreply@sanathcloud.com)
 - **Format**: `noreply@yourdomain.com`
 
 ## How It Works
@@ -73,7 +73,7 @@ You need to add the following secrets to your GitHub repository:
 ### Preview Deployments (PRs)
 - When a PR is opened, the workflow creates a preview worker
 - Secrets are automatically set for the preview environment
-- Preview URL: `https://aswin-portfolio-pr-{PR_NUMBER}.aswincloud.workers.dev`
+- Preview URL: `https://aswin-portfolio-pr-{PR_NUMBER}.sanathcloud.workers.dev`
 - Preview is automatically deleted when PR is closed
 
 ### Stale Deployment Cleanup
@@ -85,7 +85,7 @@ You need to add the following secrets to your GitHub repository:
 ### Production Deployments (Main Branch)
 - When code is pushed to main branch, the workflow deploys to production
 - Secrets are automatically set for the production environment
-- Production URL: `https://www.aswincloud.com/`
+- Production URL: `https://www.sanathcloud.com/`
 
 ## Security Notes
 
