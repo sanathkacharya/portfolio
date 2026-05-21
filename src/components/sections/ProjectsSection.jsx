@@ -1,7 +1,7 @@
 /**
  * @file ProjectsSection.jsx
  * @author Sanath
- * @copyright © 2025 Sanath. All rights reserved.
+ * @copyright © 2026 Sanath. All rights reserved.
  * @description Featured projects section component with interactive cards and expandable content
  */
 

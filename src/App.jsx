@@ -62,9 +62,9 @@ const HomePage = () => {
         <SkillsSection />
       </SectionErrorBoundary>
 
-      <SectionErrorBoundary sectionName='Projects'>
+      {/* <SectionErrorBoundary sectionName='Projects'>
         <ProjectsSection />
-      </SectionErrorBoundary>
+      </SectionErrorBoundary> */}
 
       <SectionErrorBoundary sectionName='Technologies'>
         <TechnologiesSection />
