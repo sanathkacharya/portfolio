@@ -139,7 +139,9 @@ const HeroSection = React.memo(function HeroSection() {
               <span className='text-purple-400 font-semibold'>cloud infrastructure</span> {' '}
               and innovative software development, with over {' '}
               <span className='text-emerald-400 font-semibold'>{experience}</span> {' '}
-              of professional experience. Currently based in Mumbai.
+              of professional experience. Currently based in{' '}
+              <span className='text-blue-400 font-semibold'>Mumbai</span> {' '}
+              and actively seeking new career opportunities.
             </motion.p>
 
             {/* Modern CTA Buttons */}

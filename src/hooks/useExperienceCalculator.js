@@ -12,14 +12,15 @@ export const useExperienceCalculator = () => {
 
   useEffect(() => {
     const calculateExperience = () => {
-      const startDate = new Date('2023-01-06');
+      const startDate = new Date('2018-06-18');
+      const MastersYears = 2;
       const currentDate = new Date();
 
       const diffInMonths =
         (currentDate.getFullYear() - startDate.getFullYear()) * 12 +
         (currentDate.getMonth() - startDate.getMonth());
 
-      const years = Math.floor(diffInMonths / 12);
+      const years = Math.floor((diffInMonths / 12) - MastersYears);
       const months = diffInMonths % 12;
 
       if (years > 0) {
