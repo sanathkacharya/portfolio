@@ -1,4 +1,4 @@
-# Aswin's Portfolio
+# Sanath's Portfolio
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS. Deployed on Cloudflare Workers with automated email functionality.
 
