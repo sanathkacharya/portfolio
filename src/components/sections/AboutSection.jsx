@@ -92,7 +92,7 @@ const AboutSection = React.memo(() => {
             </span>
           </h2>
           <p className='text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed'>
-            Passionate about building innovative solutions that make a difference
+            Passionate about developing innovative solutions that create meaningful impact.
           </p>
         </motion.div>
 

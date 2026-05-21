@@ -131,14 +131,15 @@ const HeroSection = React.memo(function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
             >
-              Passionate about{' '}
-              <span className='text-pink-400 font-semibold'>software development</span> and{' '}
-              <span className='text-cyan-400 font-semibold'>modern technologies</span>. Specializing
-              in building efficient software solutions with a keen interest in{' '}
-              <span className='text-purple-400 font-semibold'>cloud infrastructure</span>. Based in
-              the beautiful city of Mumbai with{' '}
-              <span className='text-emerald-400 font-semibold'>{experience}</span> of professional
-              experience.
+              Driven{' '}
+              <span className='text-pink-400 font-semibold'>software developer</span> {' '}
+              with a passion for {' '}
+              <span className='text-cyan-400 font-semibold'>modern technologies</span> {' '}
+              and building efficient, scalable solutions. Skilled in {' '}
+              <span className='text-purple-400 font-semibold'>cloud infrastructure</span> {' '}
+              and innovative software development, with over {' '}
+              <span className='text-emerald-400 font-semibold'>{experience}</span> {' '}
+              of professional experience. Currently based in Mumbai.
             </motion.p>
 
             {/* Modern CTA Buttons */}
