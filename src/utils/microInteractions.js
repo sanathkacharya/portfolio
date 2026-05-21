@@ -1,7 +1,7 @@
 /**
  * @file microInteractions.js
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Utility functions for micro-interactions and subtle animations
  */
 

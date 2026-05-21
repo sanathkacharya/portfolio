@@ -1,7 +1,7 @@
 /**
  * @file HeroSection.jsx
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Modern hero section component with animated background and interactive elements
  */
 
@@ -90,7 +90,7 @@ const HeroSection = React.memo(function HeroSection() {
             >
               <span className='relative'>
                 <span className='bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animate-pulse'>
-                  Aswin
+                  Sanath
                 </span>
                 <motion.div
                   className='absolute -top-2 -right-2 w-4 h-4 bg-gradient-to-r from-pink-400 to-cyan-400 rounded-full'
@@ -199,10 +199,10 @@ const HeroSection = React.memo(function HeroSection() {
               transition={{ delay: 1.0 }}
             >
               {[
-                { icon: Github, href: 'https://github.com/Aswin-coder', label: 'GitHub' },
+                { icon: Github, href: 'https://github.com/Sanath-coder', label: 'GitHub' },
                 {
                   icon: Linkedin,
-                  href: 'https://www.linkedin.com/in/aswin4122001/',
+                  href: 'https://www.linkedin.com/in/sanath4122001/',
                   label: 'LinkedIn',
                 },
                 { icon: Mail, href: 'mailto:contact@sanathcloud.com', label: 'Email' },

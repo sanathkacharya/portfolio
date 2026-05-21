@@ -4,13 +4,13 @@ This directory contains the cleanup script for removing stale Cloudflare Workers
 
 ## Overview
 
-When pull requests are opened, preview deployments are automatically created on Cloudflare Workers (e.g., `aswin-portfolio-pr-46.sanathcloud.workers.dev`). This script ensures that deployments for closed or merged PRs are automatically cleaned up, preventing resource waste and clutter.
+When pull requests are opened, preview deployments are automatically created on Cloudflare Workers (e.g., `sanath-portfolio-pr-46.sanathcloud.workers.dev`). This script ensures that deployments for closed or merged PRs are automatically cleaned up, preventing resource waste and clutter.
 
 ## How It Works
 
 The cleanup script:
 1. Lists all workers in the Cloudflare account
-2. Identifies workers matching the PR preview pattern (`aswin-portfolio-pr-[number]`)
+2. Identifies workers matching the PR preview pattern (`sanath-portfolio-pr-[number]`)
 3. Checks if each PR is still open using the GitHub API
 4. Deletes workers for closed/merged PRs
 5. Keeps workers for open PRs
@@ -55,14 +55,14 @@ You can manually trigger the cleanup:
 ### Worker Naming Pattern
 
 The script only processes workers matching this pattern:
-- Pattern: `aswin-portfolio-pr-[number]`
-- Regex: `/^aswin-portfolio-pr-(\d+)$/`
-- Example: `aswin-portfolio-pr-123`
+- Pattern: `sanath-portfolio-pr-[number]`
+- Regex: `/^sanath-portfolio-pr-(\d+)$/`
+- Example: `sanath-portfolio-pr-123`
 
 To customize for a different project, modify these constants in the script:
 ```javascript
-const PR_WORKER_PREFIX = 'aswin-portfolio-pr-';
-const PR_WORKER_PATTERN = /^aswin-portfolio-pr-(\d+)$/;
+const PR_WORKER_PREFIX = 'sanath-portfolio-pr-';
+const PR_WORKER_PATTERN = /^sanath-portfolio-pr-(\d+)$/;
 ```
 
 ## Security

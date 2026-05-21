@@ -1,7 +1,7 @@
 /**
  * @file ExperienceEntry.jsx
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Individual experience entry component with timeline design and company branding
  */
 

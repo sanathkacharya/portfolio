@@ -241,5 +241,5 @@ Complete dark mode implementation with smooth transitions:
 
 ---
 
-Built with ❤️ by Aswin | Enhanced December 2025
+Built with ❤️ by Sanath | Enhanced May 2026
 

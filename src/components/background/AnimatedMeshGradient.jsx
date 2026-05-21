@@ -1,7 +1,7 @@
 /**
  * @file AnimatedMeshGradient.jsx
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Advanced animated mesh gradient background for hero section
  */
 

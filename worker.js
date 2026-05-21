@@ -72,11 +72,11 @@ function createAutoReplyHTML(name, message) {
       </p>
       
       <div style="text-align: center; margin: 30px 0;">
-        <a href="https://github.com/Aswin-coder" 
+        <a href="https://github.com/Sanath-coder" 
            style="display: inline-block; background-color: #374151; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 0 10px;">
           GitHub
         </a>
-        <a href="https://www.linkedin.com/in/aswin4122001/" 
+        <a href="https://www.linkedin.com/in/sanath4122001/" 
            style="display: inline-block; background-color: #0077b5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 0 10px;">
           LinkedIn
         </a>
@@ -84,7 +84,7 @@ function createAutoReplyHTML(name, message) {
       
       <p style="font-size: 16px; line-height: 1.6; color: #374151;">
         Best regards,<br>
-        <strong>Aswin</strong><br>
+        <strong>Sanath</strong><br>
         Software Engineer
       </p>
       
@@ -146,7 +146,7 @@ async function sendEmail(to, subject, html, text, hostname = 'sanathcloud.com', 
       ],
       from: {
         email: 'contact@sanathcloud.com',
-        name: 'Aswin Portfolio',
+        name: 'Sanath Portfolio',
       },
       subject: subject,
       content: [
@@ -430,10 +430,10 @@ async function handleContactForm(request, env) {
       
       Your message was submitted on: ${new Date().toLocaleString()}
       
-      In the meantime, feel free to check out my work on GitHub (https://github.com/Aswin-coder) or connect with me on LinkedIn (https://www.linkedin.com/in/aswin4122001/).
+      In the meantime, feel free to check out my work on GitHub (https://github.com/Sanath-coder) or connect with me on LinkedIn (https://www.linkedin.com/in/sanath4122001/).
       
       Best regards,
-      Aswin
+      Sanath
       Software Engineer
       
       ---

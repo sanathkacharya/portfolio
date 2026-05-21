@@ -34,7 +34,7 @@ describe('App', () => {
     // Wait for the loading to complete and check if the main content loads
     await waitFor(
       () => {
-        expect(screen.getAllByText('Aswin').length).toBeGreaterThan(0);
+        expect(screen.getAllByText('Sanath').length).toBeGreaterThan(0);
       },
       { timeout: 5000 }
     );

@@ -18,7 +18,7 @@ function getWorkersList() {
 // Function to delete a worker
 function deleteWorker(workerName) {
   // Safety check: Only delete workers that are clearly preview workers
-  if (!workerName.includes('aswin-portfolio-pr-') || workerName === 'aswin-portfolio') {
+  if (!workerName.includes('sanath-portfolio-pr-') || workerName === 'sanath-portfolio') {
     console.error(
       `❌ SAFETY CHECK FAILED: ${workerName} is not a preview worker. Skipping deletion.`
     );
@@ -51,9 +51,9 @@ function cleanupPreviews() {
   // Find preview workers (those with -pr- in the name)
   const previewWorkers = workersList
     .split('\n')
-    .filter(line => line.includes('aswin-portfolio-pr-'))
+    .filter(line => line.includes('sanath-portfolio-pr-'))
     .map(line => line.split(/\s+/)[0]) // Get the first column (worker name)
-    .filter(name => name && name.startsWith('aswin-portfolio-pr-'));
+    .filter(name => name && name.startsWith('sanath-portfolio-pr-'));
 
   if (previewWorkers.length === 0) {
     console.log('✅ No preview workers found to clean up');

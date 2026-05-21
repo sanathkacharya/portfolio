@@ -11,7 +11,7 @@ The portfolio is configured to support both GitHub Pages deployment and other de
 ### 1. Enable GitHub Pages
 
 1. Go to your repository on GitHub: `https://github.com/<your-username>/<your-repo>`
-   - For this repository: `https://github.com/Aswintechie/portfolio`
+   - For this repository: `https://github.com/sanathkacharya/portfolio`
 2. Navigate to **Settings** → **Pages** (in the left sidebar)
 3. Under **Source**, select **GitHub Actions** from the dropdown
 
@@ -26,7 +26,7 @@ https://<your-username>.github.io/<repo-name>/
 
 For this repository specifically:
 ```
-https://aswintechie.github.io/portfolio/
+https://sanathkacharya.github.io/portfolio/
 ```
 
 ## Configuration
@@ -167,7 +167,7 @@ After enabling GitHub Pages:
 1. Push a commit to the `main` branch
 2. Go to the Actions tab and watch the deployment
 3. Once complete, visit your site at `https://<your-username>.github.io/<repo-name>/`
-   - For this repository: `https://aswintechie.github.io/portfolio/`
+   - For this repository: `https://sanathkacharya.github.io/portfolio/`
 4. Share your portfolio URL!
 
 ## Need Help?

@@ -1,7 +1,7 @@
 /**
  * @file Navigation.jsx
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Performance-optimized navigation component with routing and mobile menu support
  */
 

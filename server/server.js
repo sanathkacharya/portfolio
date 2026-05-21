@@ -124,9 +124,9 @@ This message was sent from your portfolio contact form.
 
     // Send confirmation email to user
     const userEmailResult = await resend.emails.send({
-      from: 'Aswin Zayasankaran <noreply@yourdomain.com>',
+      from: 'Sanath Zayasankaran <noreply@yourdomain.com>',
       to: email,
-      subject: 'Thank you for your message - Aswin Zayasankaran',
+      subject: 'Thank you for your message - Sanath Zayasankaran',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333;">Thank you for reaching out!</h2>
@@ -143,7 +143,7 @@ This message was sent from your portfolio contact form.
           <p>I typically respond within 24-48 hours during business days.</p>
           
           <p>Best regards,<br>
-          <strong>Aswin Zayasankaran</strong></p>
+          <strong>Sanath Zayasankaran</strong></p>
           
           <hr style="margin: 30px 0; border: none; border-top: 1px solid #eee;">
           <p style="color: #666; font-size: 12px;">
@@ -164,7 +164,7 @@ ${message}
 I typically respond within 24-48 hours during business days.
 
 Best regards,
-Aswin Zayasankaran
+Sanath Zayasankaran
 
 ---
 This is an automated confirmation email. Please do not reply to this message.

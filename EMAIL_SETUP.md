@@ -38,7 +38,7 @@ async function sendEmail(to, subject, html, text) {
       ],
       from: {
         email: 'noreply@sanathcloud.com',
-        name: 'Aswin Portfolio',
+        name: 'Sanath Portfolio',
       },
       subject,
       content: [
@@ -117,7 +117,7 @@ async function sendEmail(to, subject, html, text) {
       ],
       from: {
         email: 'noreply@sanathcloud.com',
-        name: 'Aswin Portfolio',
+        name: 'Sanath Portfolio',
       },
       subject: subject,
       content: [

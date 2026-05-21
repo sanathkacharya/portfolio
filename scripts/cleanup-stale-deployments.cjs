@@ -24,8 +24,8 @@ const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_REPOSITORY = process.env.GITHUB_REPOSITORY;
 
 // Worker naming pattern for PR previews
-const PR_WORKER_PREFIX = 'aswin-portfolio-pr-';
-const PR_WORKER_PATTERN = /^aswin-portfolio-pr-(\d+)$/;
+const PR_WORKER_PREFIX = 'sanath-portfolio-pr-';
+const PR_WORKER_PATTERN = /^sanath-portfolio-pr-(\d+)$/;
 
 // Validate required environment variables
 if (!CLOUDFLARE_API_TOKEN) {

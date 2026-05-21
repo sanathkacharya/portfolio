@@ -1,7 +1,7 @@
 /**
  * @file GlobalErrorHandler.jsx
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Global error handler for unhandled promise rejections and uncaught errors
  */
 

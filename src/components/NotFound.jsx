@@ -1,7 +1,7 @@
 /**
  * @file NotFound.jsx
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description 404 Not Found page component with navigation and error handling
  */
 

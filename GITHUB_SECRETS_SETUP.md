@@ -73,7 +73,7 @@ You need to add the following secrets to your GitHub repository:
 ### Preview Deployments (PRs)
 - When a PR is opened, the workflow creates a preview worker
 - Secrets are automatically set for the preview environment
-- Preview URL: `https://aswin-portfolio-pr-{PR_NUMBER}.sanathcloud.workers.dev`
+- Preview URL: `https://sanath-portfolio-pr-{PR_NUMBER}.sanathcloud.workers.dev`
 - Preview is automatically deleted when PR is closed
 
 ### Stale Deployment Cleanup

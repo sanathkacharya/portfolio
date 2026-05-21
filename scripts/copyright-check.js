@@ -2,8 +2,8 @@
 
 /**
  * @file copyright-check.js
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2026 Sanath. All rights reserved.
  * @description Pre-commit script to validate copyright headers in source files
  */
 
@@ -12,8 +12,8 @@ import path from 'path';
 
 // Configuration
 const CONFIG = {
-  requiredCopyright: '© 2025 Aswin. All rights reserved.',
-  requiredAuthor: 'Aswin',
+  requiredCopyright: '© 2026 Sanath. All rights reserved.',
+  requiredAuthor: 'Sanath',
   fileExtensions: ['.js', '.jsx', '.ts', '.tsx'],
   ignorePaths: [
     'node_modules',

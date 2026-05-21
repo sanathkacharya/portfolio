@@ -1,7 +1,7 @@
 /**
  * @file PageLoader.jsx
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Beautiful page loading animation with progress indicators
  */
 
@@ -136,7 +136,7 @@ const PageLoader = ({ isLoading, progress = 0, stage = 'loading', onComplete = (
               transition={{ delay: 0.5, duration: 0.6 }}
               className='text-4xl font-bold text-white mb-2'
             >
-              Aswin
+              Sanath
             </motion.h1>
 
             <motion.p

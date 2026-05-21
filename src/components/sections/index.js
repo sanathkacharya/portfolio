@@ -1,7 +1,7 @@
 /**
  * @file index.js
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Central export file for all portfolio section components
  */
 

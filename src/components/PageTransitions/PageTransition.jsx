@@ -1,7 +1,7 @@
 /**
  * @file PageTransition.jsx
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Page transition system with Framer Motion for smooth animations
  */
 

@@ -35,7 +35,7 @@ A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Aswintechie/portfolio.git
+   git clone https://github.com/Sanathtechie/portfolio.git
    cd portfolio
    ```
 
@@ -72,7 +72,7 @@ The portfolio uses GitHub Actions for automated deployment to Cloudflare Workers
 
 ### Step 2: Add GitHub Secret
 
-1. Go to your GitHub repository: `https://github.com/Aswintechie/portfolio`
+1. Go to your GitHub repository: `https://github.com/Sanathtechie/portfolio`
 2. Click **Settings** → **Secrets and variables** → **Actions**
 3. Click **New repository secret**
 4. Name: `CLOUDFLARE_API_TOKEN`
@@ -124,8 +124,8 @@ Visit the live portfolio: **[www.sanathcloud.com](https://www.sanathcloud.com)**
 ## 📱 Contact
 
 - **Email**: contact@sanathcloud.com
-- **GitHub**: [github.com/Aswin-coder](https://github.com/Aswin-coder)
-- **LinkedIn**: [linkedin.com/in/aswin4122001](https://www.linkedin.com/in/aswin4122001/)
+- **GitHub**: [github.com/Sanath-coder](https://github.com/Sanath-coder)
+- **LinkedIn**: [linkedin.com/in/sanath4122001](https://www.linkedin.com/in/sanath4122001/)
 
 ## 🎯 Project Highlights
 
@@ -135,4 +135,4 @@ Visit the live portfolio: **[www.sanathcloud.com](https://www.sanathcloud.com)**
 
 ---
 
-Built with ❤️ by [Aswin](https://github.com/Aswin-coder) | Software Engineer at MulticoreWare 
+Built with ❤️ by [Sanath](https://github.com/Sanath-coder) | Software Engineer at MulticoreWare 

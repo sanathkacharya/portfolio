@@ -1,7 +1,7 @@
 /**
  * @file use3DTilt.js
- * @author Aswin
- * @copyright © 2025 Aswin. All rights reserved.
+ * @author Sanath
+ * @copyright © 2025 Sanath. All rights reserved.
  * @description Custom hook for 3D tilt effects with mouse position tracking
  */
 
