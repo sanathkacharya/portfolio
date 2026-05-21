@@ -115,7 +115,7 @@ const HeroSection = React.memo(function HeroSection() {
               transition={{ delay: 0.4 }}
             >
               <span className='bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent'>
-                Software Developer Engineer
+                Technology Analyst
               </span>
               <motion.span
                 className='inline-block w-1 h-8 bg-gradient-to-r from-pink-400 to-cyan-400 ml-1'

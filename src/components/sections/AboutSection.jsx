@@ -108,7 +108,7 @@ const AboutSection = React.memo(() => {
                 <div className='absolute -left-4 top-0 w-1 h-full bg-gradient-to-b from-blue-500 to-purple-500 rounded-full'></div>
                 <p className='pl-8'>
                   I'm a passionate{' '}
-                  <span className='font-semibold text-blue-600'>Software Developer Engineer</span>{' '}
+                  <span className='font-semibold text-blue-600'>Technology Analyst</span>{' '}
                   based in Mumbai, specializing in software development and modern application
                   architecture. My expertise lies in developing efficient software solutions,
                   building scalable applications, and implementing best practices in software
